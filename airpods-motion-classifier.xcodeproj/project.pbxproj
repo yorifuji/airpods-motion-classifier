@@ -1,0 +1,598 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E3E847162524627F00635B78 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3E847152524627F00635B78 /* AppDelegate.swift */; };
+		E3E847182524627F00635B78 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3E847172524627F00635B78 /* SceneDelegate.swift */; };
+		E3E8471A2524627F00635B78 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3E847192524627F00635B78 /* ViewController.swift */; };
+		E3E8471D2524627F00635B78 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E3E8471B2524627F00635B78 /* Main.storyboard */; };
+		E3E8471F2524628000635B78 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E3E8471E2524628000635B78 /* Assets.xcassets */; };
+		E3E847222524628000635B78 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E3E847202524628000635B78 /* LaunchScreen.storyboard */; };
+		E3E8472D2524628100635B78 /* airpods_motion_classifierTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3E8472C2524628100635B78 /* airpods_motion_classifierTests.swift */; };
+		E3E847382524628100635B78 /* airpods_motion_classifierUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3E847372524628100635B78 /* airpods_motion_classifierUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E3E847292524628100635B78 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E3E8470A2524627F00635B78 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E3E847112524627F00635B78;
+			remoteInfo = "airpods-motion-classifier";
+		};
+		E3E847342524628100635B78 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E3E8470A2524627F00635B78 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E3E847112524627F00635B78;
+			remoteInfo = "airpods-motion-classifier";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E3E847122524627F00635B78 /* airpods-motion-classifier.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "airpods-motion-classifier.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E3E847152524627F00635B78 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		E3E847172524627F00635B78 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		E3E847192524627F00635B78 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		E3E8471C2524627F00635B78 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E3E8471E2524628000635B78 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E3E847212524628000635B78 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E3E847232524628000635B78 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E3E847282524628100635B78 /* airpods-motion-classifierTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "airpods-motion-classifierTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E3E8472C2524628100635B78 /* airpods_motion_classifierTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = airpods_motion_classifierTests.swift; sourceTree = "<group>"; };
+		E3E8472E2524628100635B78 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E3E847332524628100635B78 /* airpods-motion-classifierUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "airpods-motion-classifierUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E3E847372524628100635B78 /* airpods_motion_classifierUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = airpods_motion_classifierUITests.swift; sourceTree = "<group>"; };
+		E3E847392524628100635B78 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E3E8470F2524627F00635B78 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E3E847252524628100635B78 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E3E847302524628100635B78 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E3E847092524627F00635B78 = {
+			isa = PBXGroup;
+			children = (
+				E3E847142524627F00635B78 /* airpods-motion-classifier */,
+				E3E8472B2524628100635B78 /* airpods-motion-classifierTests */,
+				E3E847362524628100635B78 /* airpods-motion-classifierUITests */,
+				E3E847132524627F00635B78 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E3E847132524627F00635B78 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E3E847122524627F00635B78 /* airpods-motion-classifier.app */,
+				E3E847282524628100635B78 /* airpods-motion-classifierTests.xctest */,
+				E3E847332524628100635B78 /* airpods-motion-classifierUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E3E847142524627F00635B78 /* airpods-motion-classifier */ = {
+			isa = PBXGroup;
+			children = (
+				E3E847152524627F00635B78 /* AppDelegate.swift */,
+				E3E847172524627F00635B78 /* SceneDelegate.swift */,
+				E3E847192524627F00635B78 /* ViewController.swift */,
+				E3E8471B2524627F00635B78 /* Main.storyboard */,
+				E3E8471E2524628000635B78 /* Assets.xcassets */,
+				E3E847202524628000635B78 /* LaunchScreen.storyboard */,
+				E3E847232524628000635B78 /* Info.plist */,
+			);
+			path = "airpods-motion-classifier";
+			sourceTree = "<group>";
+		};
+		E3E8472B2524628100635B78 /* airpods-motion-classifierTests */ = {
+			isa = PBXGroup;
+			children = (
+				E3E8472C2524628100635B78 /* airpods_motion_classifierTests.swift */,
+				E3E8472E2524628100635B78 /* Info.plist */,
+			);
+			path = "airpods-motion-classifierTests";
+			sourceTree = "<group>";
+		};
+		E3E847362524628100635B78 /* airpods-motion-classifierUITests */ = {
+			isa = PBXGroup;
+			children = (
+				E3E847372524628100635B78 /* airpods_motion_classifierUITests.swift */,
+				E3E847392524628100635B78 /* Info.plist */,
+			);
+			path = "airpods-motion-classifierUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E3E847112524627F00635B78 /* airpods-motion-classifier */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E3E8473C2524628100635B78 /* Build configuration list for PBXNativeTarget "airpods-motion-classifier" */;
+			buildPhases = (
+				E3E8470E2524627F00635B78 /* Sources */,
+				E3E8470F2524627F00635B78 /* Frameworks */,
+				E3E847102524627F00635B78 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "airpods-motion-classifier";
+			productName = "airpods-motion-classifier";
+			productReference = E3E847122524627F00635B78 /* airpods-motion-classifier.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E3E847272524628100635B78 /* airpods-motion-classifierTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E3E8473F2524628100635B78 /* Build configuration list for PBXNativeTarget "airpods-motion-classifierTests" */;
+			buildPhases = (
+				E3E847242524628100635B78 /* Sources */,
+				E3E847252524628100635B78 /* Frameworks */,
+				E3E847262524628100635B78 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E3E8472A2524628100635B78 /* PBXTargetDependency */,
+			);
+			name = "airpods-motion-classifierTests";
+			productName = "airpods-motion-classifierTests";
+			productReference = E3E847282524628100635B78 /* airpods-motion-classifierTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		E3E847322524628100635B78 /* airpods-motion-classifierUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E3E847422524628100635B78 /* Build configuration list for PBXNativeTarget "airpods-motion-classifierUITests" */;
+			buildPhases = (
+				E3E8472F2524628100635B78 /* Sources */,
+				E3E847302524628100635B78 /* Frameworks */,
+				E3E847312524628100635B78 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E3E847352524628100635B78 /* PBXTargetDependency */,
+			);
+			name = "airpods-motion-classifierUITests";
+			productName = "airpods-motion-classifierUITests";
+			productReference = E3E847332524628100635B78 /* airpods-motion-classifierUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E3E8470A2524627F00635B78 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1200;
+				LastUpgradeCheck = 1200;
+				TargetAttributes = {
+					E3E847112524627F00635B78 = {
+						CreatedOnToolsVersion = 12.0;
+					};
+					E3E847272524628100635B78 = {
+						CreatedOnToolsVersion = 12.0;
+						TestTargetID = E3E847112524627F00635B78;
+					};
+					E3E847322524628100635B78 = {
+						CreatedOnToolsVersion = 12.0;
+						TestTargetID = E3E847112524627F00635B78;
+					};
+				};
+			};
+			buildConfigurationList = E3E8470D2524627F00635B78 /* Build configuration list for PBXProject "airpods-motion-classifier" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E3E847092524627F00635B78;
+			productRefGroup = E3E847132524627F00635B78 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E3E847112524627F00635B78 /* airpods-motion-classifier */,
+				E3E847272524628100635B78 /* airpods-motion-classifierTests */,
+				E3E847322524628100635B78 /* airpods-motion-classifierUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E3E847102524627F00635B78 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E3E847222524628000635B78 /* LaunchScreen.storyboard in Resources */,
+				E3E8471F2524628000635B78 /* Assets.xcassets in Resources */,
+				E3E8471D2524627F00635B78 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E3E847262524628100635B78 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E3E847312524628100635B78 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E3E8470E2524627F00635B78 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E3E8471A2524627F00635B78 /* ViewController.swift in Sources */,
+				E3E847162524627F00635B78 /* AppDelegate.swift in Sources */,
+				E3E847182524627F00635B78 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E3E847242524628100635B78 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E3E8472D2524628100635B78 /* airpods_motion_classifierTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E3E8472F2524628100635B78 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E3E847382524628100635B78 /* airpods_motion_classifierUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E3E8472A2524628100635B78 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E3E847112524627F00635B78 /* airpods-motion-classifier */;
+			targetProxy = E3E847292524628100635B78 /* PBXContainerItemProxy */;
+		};
+		E3E847352524628100635B78 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E3E847112524627F00635B78 /* airpods-motion-classifier */;
+			targetProxy = E3E847342524628100635B78 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E3E8471B2524627F00635B78 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E3E8471C2524627F00635B78 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E3E847202524628000635B78 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E3E847212524628000635B78 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E3E8473A2524628100635B78 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E3E8473B2524628100635B78 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E3E8473D2524628100635B78 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5QJR7K89TS;
+				INFOPLIST_FILE = "airpods-motion-classifier/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.airpods-motion-classifier";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E3E8473E2524628100635B78 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5QJR7K89TS;
+				INFOPLIST_FILE = "airpods-motion-classifier/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.airpods-motion-classifier";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		E3E847402524628100635B78 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5QJR7K89TS;
+				INFOPLIST_FILE = "airpods-motion-classifierTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.airpods-motion-classifierTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/airpods-motion-classifier.app/airpods-motion-classifier";
+			};
+			name = Debug;
+		};
+		E3E847412524628100635B78 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5QJR7K89TS;
+				INFOPLIST_FILE = "airpods-motion-classifierTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.airpods-motion-classifierTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/airpods-motion-classifier.app/airpods-motion-classifier";
+			};
+			name = Release;
+		};
+		E3E847432524628100635B78 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5QJR7K89TS;
+				INFOPLIST_FILE = "airpods-motion-classifierUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.airpods-motion-classifierUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "airpods-motion-classifier";
+			};
+			name = Debug;
+		};
+		E3E847442524628100635B78 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5QJR7K89TS;
+				INFOPLIST_FILE = "airpods-motion-classifierUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.airpods-motion-classifierUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "airpods-motion-classifier";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E3E8470D2524627F00635B78 /* Build configuration list for PBXProject "airpods-motion-classifier" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E3E8473A2524628100635B78 /* Debug */,
+				E3E8473B2524628100635B78 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E3E8473C2524628100635B78 /* Build configuration list for PBXNativeTarget "airpods-motion-classifier" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E3E8473D2524628100635B78 /* Debug */,
+				E3E8473E2524628100635B78 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E3E8473F2524628100635B78 /* Build configuration list for PBXNativeTarget "airpods-motion-classifierTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E3E847402524628100635B78 /* Debug */,
+				E3E847412524628100635B78 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E3E847422524628100635B78 /* Build configuration list for PBXNativeTarget "airpods-motion-classifierUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E3E847432524628100635B78 /* Debug */,
+				E3E847442524628100635B78 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E3E8470A2524627F00635B78 /* Project object */;
+}
