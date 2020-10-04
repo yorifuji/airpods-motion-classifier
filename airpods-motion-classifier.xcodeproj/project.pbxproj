@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E3460F9025282232009E5EA3 /* HumanActivityClassifier 30.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = E3460F8F25282232009E5EA3 /* HumanActivityClassifier 30.mlmodel */; };
 		E3E847162524627F00635B78 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3E847152524627F00635B78 /* AppDelegate.swift */; };
 		E3E847182524627F00635B78 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3E847172524627F00635B78 /* SceneDelegate.swift */; };
 		E3E8471A2524627F00635B78 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3E847192524627F00635B78 /* ViewController.swift */; };
@@ -15,6 +16,7 @@
 		E3E847222524628000635B78 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E3E847202524628000635B78 /* LaunchScreen.storyboard */; };
 		E3E8472D2524628100635B78 /* airpods_motion_classifierTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3E8472C2524628100635B78 /* airpods_motion_classifierTests.swift */; };
 		E3E847382524628100635B78 /* airpods_motion_classifierUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3E847372524628100635B78 /* airpods_motion_classifierUITests.swift */; };
+		E3E84783252474E600635B78 /* HeadphoneMotionClassifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3E84781252474E600635B78 /* HeadphoneMotionClassifier.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +37,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		E3460F8F25282232009E5EA3 /* HumanActivityClassifier 30.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = "HumanActivityClassifier 30.mlmodel"; sourceTree = "<group>"; };
 		E3E847122524627F00635B78 /* airpods-motion-classifier.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "airpods-motion-classifier.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E3E847152524627F00635B78 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E3E847172524627F00635B78 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -49,6 +52,7 @@
 		E3E847332524628100635B78 /* airpods-motion-classifierUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "airpods-motion-classifierUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E3E847372524628100635B78 /* airpods_motion_classifierUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = airpods_motion_classifierUITests.swift; sourceTree = "<group>"; };
 		E3E847392524628100635B78 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E3E84781252474E600635B78 /* HeadphoneMotionClassifier.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HeadphoneMotionClassifier.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +103,8 @@
 		E3E847142524627F00635B78 /* airpods-motion-classifier */ = {
 			isa = PBXGroup;
 			children = (
+				E3460F8F25282232009E5EA3 /* HumanActivityClassifier 30.mlmodel */,
+				E3E84781252474E600635B78 /* HeadphoneMotionClassifier.swift */,
 				E3E847152524627F00635B78 /* AppDelegate.swift */,
 				E3E847172524627F00635B78 /* SceneDelegate.swift */,
 				E3E847192524627F00635B78 /* ViewController.swift */,
@@ -259,7 +265,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				E3E8471A2524627F00635B78 /* ViewController.swift in Sources */,
+				E3E84783252474E600635B78 /* HeadphoneMotionClassifier.swift in Sources */,
 				E3E847162524627F00635B78 /* AppDelegate.swift in Sources */,
+				E3460F9025282232009E5EA3 /* HumanActivityClassifier 30.mlmodel in Sources */,
 				E3E847182524627F00635B78 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
