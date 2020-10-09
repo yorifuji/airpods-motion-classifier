@@ -12,6 +12,7 @@ import CoreML
 class ViewController: UIViewController {
 
     @IBOutlet weak var label: UILabel!
+    @IBOutlet weak var labelIcon: UILabel!
 
     let hmm = CMHeadphoneMotionManager()
     let classifier = HeadphoneMotionClassifier()
@@ -43,6 +44,12 @@ extension ViewController : HeadphoneMotionClassifierDelegate {
     func motionDidDetect(results: [(String, Double)]) {
         print(results)
         DispatchQueue.main.async {
+            if results[0].0 == "walk" {
+                self.labelIcon.text = "🚶"
+            }
+            else  {
+                self.labelIcon.text = "🧍"
+            }
             self.label.text = "\(results[0].0)\n\(results[0].1)"
         }
     }
