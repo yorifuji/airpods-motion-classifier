@@ -88,9 +88,9 @@ class HeadphoneMotionClassifier {
 //        gravity_y[[predictionWindowIndex] as [NSNumber]] = deviceMotion.gravity.y as NSNumber
 //        gravity_z[[predictionWindowIndex] as [NSNumber]] = deviceMotion.gravity.z as NSNumber
 //        quaternion_x[[predictionWindowIndex] as [NSNumber]] = deviceMotion.attitude.quaternion.x as NSNumber
-//        quaternion_y[[predictionWindowIndex] as [NSNumber]] = deviceMotion.attitude.quaternion.x as NSNumber
-//        quaternion_z[[predictionWindowIndex] as [NSNumber]] = deviceMotion.attitude.quaternion.x as NSNumber
-//        quaternion_w[[predictionWindowIndex] as [NSNumber]] = deviceMotion.attitude.quaternion.x as NSNumber
+//        quaternion_y[[predictionWindowIndex] as [NSNumber]] = deviceMotion.attitude.quaternion.y as NSNumber
+//        quaternion_z[[predictionWindowIndex] as [NSNumber]] = deviceMotion.attitude.quaternion.z as NSNumber
+//        quaternion_w[[predictionWindowIndex] as [NSNumber]] = deviceMotion.attitude.quaternion.w as NSNumber
 //        rotation_x[[predictionWindowIndex] as [NSNumber]] = deviceMotion.rotationRate.x as NSNumber
 //        rotation_y[[predictionWindowIndex] as [NSNumber]] = deviceMotion.rotationRate.y as NSNumber
 //        rotation_z[[predictionWindowIndex] as [NSNumber]] = deviceMotion.rotationRate.z as NSNumber
