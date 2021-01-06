@@ -1,0 +1,359 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "4881C98A-B270-4C52-B1F7-E9E8C1CB327E"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "4C3D75E2-7A65-4C06-B003-478E39565E0B"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "airpods-motion-classifier/ViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "34"
+            endingLineNumber = "34"
+            landmarkName = "viewDidLoad()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "91D69667-4205-4869-AE73-F210F12815FE"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "airpods-motion-classifier/HeadphoneMotionClassifier.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "138"
+            endingLineNumber = "138"
+            landmarkName = "predict()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "75675833-7F94-4B7E-BEAD-7F071A8F7530"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "airpods-motion-classifier/HeadphoneMotionClassifier.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "139"
+            endingLineNumber = "139"
+            landmarkName = "predict()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "75675833-7F94-4B7E-BEAD-7F071A8F7530 - 1f29c99f8f70f07"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "airpods_motion_classifier.HeadphoneMotionClassifier.(predict in _727A726B5C6A72D06EBCA0112613528C)() -&gt; ()"
+                  moduleName = "airpods-motion-classifier"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/yorifuji/git/airpods-motion-classifier/airpods-motion-classifier/HeadphoneMotionClassifier.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "144"
+                  endingLineNumber = "144"
+                  offsetFromSymbolStart = "376">
+               </Location>
+               <Location
+                  uuid = "75675833-7F94-4B7E-BEAD-7F071A8F7530 - b030d3f0385f5dc6"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 ((key: Swift.String, value: Swift.Double), (key: Swift.String, value: Swift.Double)) -&gt; Swift.Bool in airpods_motion_classifier.HeadphoneMotionClassifier.(predict in _727A726B5C6A72D06EBCA0112613528C)() -&gt; ()"
+                  moduleName = "airpods-motion-classifier"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/yorifuji/git/airpods-motion-classifier/airpods-motion-classifier/HeadphoneMotionClassifier.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "145"
+                  endingLineNumber = "145"
+                  offsetFromSymbolStart = "60">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "B51ACD8E-11AA-43CE-87CD-235D308B7B22"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "airpods-motion-classifier/HeadphoneMotionClassifier.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "142"
+            endingLineNumber = "142"
+            landmarkName = "predict()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "163FC4DB-9241-482C-BC23-F013DA6ACE77"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "airpods-motion-classifier/HeadphoneMotionClassifier.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "140"
+            endingLineNumber = "140"
+            landmarkName = "predict()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "7B2C6C52-808D-42A9-80F0-28538537E9DE"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "airpods-motion-classifier/HeadphoneMotionClassifier.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "21"
+            endingLineNumber = "21"
+            landmarkName = "HeadphoneMotionClassifier"
+            landmarkType = "3">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "66A2A376-A002-408B-A3CC-19CBC9F2DF67"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "airpods-motion-classifier/HeadphoneMotionClassifier.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "77"
+            endingLineNumber = "77"
+            landmarkName = "process(deviceMotion:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "86031A55-3584-4CD9-A354-ACE270015208"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "airpods-motion-classifier/ViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "33"
+            endingLineNumber = "33"
+            landmarkName = "viewDidLoad()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "86031A55-3584-4CD9-A354-ACE270015208 - 7bbdf301288e390f"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "airpods_motion_classifier.ViewController.viewDidLoad() -&gt; ()"
+                  moduleName = "airpods-motion-classifier"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/yorifuji/git/airpods-motion-classifier/airpods-motion-classifier/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "25"
+                  endingLineNumber = "25"
+                  offsetFromSymbolStart = "392">
+               </Location>
+               <Location
+                  uuid = "86031A55-3584-4CD9-A354-ACE270015208 - a58cc9e2e79623e"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Optional&lt;__C.CMDeviceMotion&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in airpods_motion_classifier.ViewController.viewDidLoad() -&gt; ()"
+                  moduleName = "airpods-motion-classifier"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/yorifuji/git/airpods-motion-classifier/airpods-motion-classifier/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "26"
+                  endingLineNumber = "26"
+                  offsetFromSymbolStart = "60">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "3AFFF5CE-A39F-49DD-9985-892155A05054"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "airpods-motion-classifier/ViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "20"
+            endingLineNumber = "20"
+            landmarkName = "ViewController"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  uuid = "3AFFF5CE-A39F-49DD-9985-892155A05054 - 2c75b2151e6a323e"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "airpods_motion_classifier.ViewController.classifier.getter : airpods_motion_classifier.HeadphoneMotionClassifier"
+                  moduleName = "airpods-motion-classifier"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/yorifuji/git/airpods-motion-classifier/airpods-motion-classifier/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "15"
+                  endingLineNumber = "15"
+                  offsetFromSymbolStart = "56">
+               </Location>
+               <Location
+                  uuid = "3AFFF5CE-A39F-49DD-9985-892155A05054 - 969fa532cdc53bad"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "airpods_motion_classifier.ViewController.init(nibName: Swift.Optional&lt;Swift.String&gt;, bundle: Swift.Optional&lt;__C.NSBundle&gt;) -&gt; airpods_motion_classifier.ViewController"
+                  moduleName = "airpods-motion-classifier"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/yorifuji/git/airpods-motion-classifier/airpods-motion-classifier/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "15"
+                  endingLineNumber = "15"
+                  offsetFromSymbolStart = "148">
+               </Location>
+               <Location
+                  uuid = "3AFFF5CE-A39F-49DD-9985-892155A05054 - b21432360f6779ab"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "airpods_motion_classifier.ViewController.init(coder: __C.NSCoder) -&gt; Swift.Optional&lt;airpods_motion_classifier.ViewController&gt;"
+                  moduleName = "airpods-motion-classifier"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/yorifuji/git/airpods-motion-classifier/airpods-motion-classifier/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "15"
+                  endingLineNumber = "15"
+                  offsetFromSymbolStart = "124">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "D9FEFB9B-99C1-41DA-B8E5-4604FA2F0BBA"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "airpods-motion-classifier/ViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "46"
+            endingLineNumber = "46"
+            landmarkName = "viewDidLoad()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "00996D0A-9056-4E09-B91E-170969E6AA2C"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "airpods-motion-classifier/HeadphoneMotionClassifier.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "73"
+            endingLineNumber = "73"
+            landmarkName = "HeadphoneMotionClassifier"
+            landmarkType = "3">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "C4A144FE-4A15-46DD-84E4-6A4788C9112C"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "airpods-motion-classifier/HeadphoneMotionClassifier.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "23"
+            endingLineNumber = "23"
+            landmarkName = "HeadphoneMotionClassifier"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  uuid = "C4A144FE-4A15-46DD-84E4-6A4788C9112C - 6cf1a9479a21c294"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "globalinit_33_727A726B5C6A72D06EBCA0112613528C_func1"
+                  moduleName = "airpods-motion-classifier"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/yorifuji/git/airpods-motion-classifier/airpods-motion-classifier/HeadphoneMotionClassifier.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "23"
+                  endingLineNumber = "23"
+                  offsetFromSymbolStart = "16">
+               </Location>
+               <Location
+                  uuid = "C4A144FE-4A15-46DD-84E4-6A4788C9112C - d836d1d06dc1b67b"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "airpods_motion_classifier.HeadphoneMotionClassifier.predictionWindowSize.unsafeMutableAddressor : Swift.Int"
+                  moduleName = "airpods-motion-classifier"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/yorifuji/git/airpods-motion-classifier/airpods-motion-classifier/HeadphoneMotionClassifier.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "23"
+                  endingLineNumber = "23"
+                  offsetFromSymbolStart = "8">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "9AD3D27C-CFAA-4CD5-B0FE-B5D466EB4B71"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "airpods-motion-classifier/ViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "28"
+            endingLineNumber = "28"
+            landmarkName = "viewDidLoad()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

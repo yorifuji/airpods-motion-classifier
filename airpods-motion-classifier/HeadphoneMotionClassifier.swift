@@ -140,7 +140,5 @@ class HeadphoneMotionClassifier {
             return $0.value > $1.value
         }
         delegate?.motionDidDetect(results: sorted)
-
-        self.stateOut = result.stateOut
     }
 }
